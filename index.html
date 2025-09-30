@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Secure Notes App (RSA)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Secure Notes App 🔐</h1>
+
+    <textarea id="noteInput" placeholder="Write your secret note here..."></textarea>
+
+    <div class="buttons">
+      <button id="generateKeys">Generate Keys</button>
+      <button id="encryptBtn">Encrypt & Save</button>
+      <button id="decryptBtn">Decrypt & Show</button>
+    </div>
+
+    <h3>Encrypted Note (localStorage):</h3>
+    <pre id="encryptedNote"></pre>
+
+    <h3>Decrypted Note:</h3>
+    <pre id="decryptedNote"></pre>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

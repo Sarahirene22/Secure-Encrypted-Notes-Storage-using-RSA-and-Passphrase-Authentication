@@ -1,0 +1,66 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #000; /* Black background */
+  color: #f5f5f5;   /* Light text */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 600px;
+  margin: 40px auto;
+  background: #1a1a1a; /* Dark gray for card */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
+
+h1, h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #00b7ff; /* Neon cyan heading */
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  border: 2px solid #444;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 16px;
+  resize: none;
+  background: #121212; /* Dark input */
+  color: #f5f5f5;
+}
+
+.buttons {
+  margin: 15px 0;
+  text-align: center;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  background: #00ccff; /* Neon button */
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background: #00a0cc;
+  transform: scale(1.05);
+}
+
+pre {
+  background: #222;
+  color: #00bbff;
+  padding: 10px;
+  border-radius: 8px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
